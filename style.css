@@ -24,7 +24,7 @@ body{
 .pic{
     position: absolute;
     /* margin-bottom: 400px; */
-    margin-top: 150px;
+    /* margin-top: 150px; */
     /* margin-right: 100px; */
     margin-left: 770px;
     width: 350px;
@@ -479,13 +479,20 @@ nav ul i .fa-solid{
     .logo{
         width: 90px;
     }
+
     #header{ 
-        height: 800px;
-        background-image: url(images/smaller-background2.png);
+        height: 850px;
         background-repeat: no-repeat;
         background-size: cover;
-
+        background-size: cover;
+        background-position: center;
     } 
+    .pic{
+        margin-bottom: 40px;
+        margin-top: 120px;
+        margin-left: 80px;
+        width: 270px;
+    }
     .header-text{
         text-align: center;
         width: 390px;
@@ -496,9 +503,9 @@ nav ul i .fa-solid{
         font-size: 30px;
     }
     nav ul li a::after{
-        background: rgb(0, 0, 0);
+        background: black;
+        
     }
-    
     nav .fa-solid{
         display: block;
         font-size: 25px;
