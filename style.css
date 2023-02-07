@@ -23,9 +23,9 @@ body{
 }
 .pic{
     position: absolute;
-    /* margin-bottom: 400px; */
-    /* margin-top: 150px; */
-    /* margin-right: 100px; */
+    margin-bottom: 400px;
+    margin-top: 150px;
+    margin-right: 100px;
     margin-left: 770px;
     width: 350px;
 }
