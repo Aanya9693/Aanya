@@ -13,6 +13,7 @@ body{
     color: black;
 }
 #header{
+    background-color: #262626;
     width: 100%;
     height: 750px;
     background-image: url(images/background5.png);
@@ -469,7 +470,11 @@ nav ul i .fa-solid{
         width: 90px;
     }
     #header{ 
+        
         background-image: url(images/smaller-background2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
     } 
     .header-text{
         text-align: center;
