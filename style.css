@@ -32,10 +32,10 @@ body{
 } */
 
 .container{
-    padding: 10px 10%;
+    padding: 10px 5%;
 }
 nav{
-    margin: 10px 1px;
+    margin: 10px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -473,7 +473,7 @@ nav ul i .fa-solid{
     } 
     .header-text{
         text-align: center;
-        width: 300px;
+        width: 390px;
         margin-top: 70%;
         font-size: 16px;
     }
