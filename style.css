@@ -13,13 +13,23 @@ body{
     color: black;
 }
 #header{
-    background-color: #262626;
+    padding: 10px;
+    background-color: black;
     width: 100%;
-    height: 750px;
-    background-image: url(images/background5.png);
+    height: 740px;
+    /* background-image: url(images/background5.png); */
     background-size: cover;
     background-position: center;
 }
+.pic{
+    position: absolute;
+    /* margin-bottom: 400px; */
+    margin-top: 150px;
+    /* margin-right: 100px; */
+    margin-left: 770px;
+    width: 350px;
+}
+
 .header-text p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     padding: 10px 0px;   
@@ -470,7 +480,7 @@ nav ul i .fa-solid{
         width: 90px;
     }
     #header{ 
-        
+        height: 800px;
         background-image: url(images/smaller-background2.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -484,6 +494,9 @@ nav ul i .fa-solid{
     }
     .header-text h1{
         font-size: 30px;
+    }
+    nav ul li a::after{
+        background: rgb(0, 0, 0);
     }
     
     nav .fa-solid{
