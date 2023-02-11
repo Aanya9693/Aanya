@@ -483,10 +483,9 @@ nav ul i .fa-solid{
 
     #header{ 
         height: 850px;
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-size: cover;
-        background-size: cover;
-        background-position: center;
+        /* background-position: center; */
     } 
     .pic{
         /* margin-left: 25%; */
@@ -499,9 +498,9 @@ nav ul i .fa-solid{
         width: 250px;
     }
     .header-text{
-        text-align: center;
-        width: 390px;
-        margin-top: 90%;
+        /* text-align: center; */
+        width: 320px;
+        padding-top: 300px;
         font-size: 16px;
     }
     .header-text h1{
