@@ -10,7 +10,7 @@ html{
 body{
     background: #f2f3f9;
    /* background: #6d0eb1; */
-    color: black;
+    /* color: black; */
 }
 #header{
     padding: 10px;
@@ -119,6 +119,7 @@ nav ul li a:hover::after{
 
 }
 
+  
 /* <!-- ---------about---------=--> */
 #about{
     padding: 70px 30px;   /* top-bottom left-right */
@@ -488,14 +489,21 @@ nav ul i .fa-solid{
         /* background-position: center; */
     } 
     .pic{
-        /* margin-left: 25%; */
-        margin: 25% 20%;
+        /* text-align: center; */
+        /* margin: 25% 10%; */
+        /* margin: 25% 20%; */
 
         /* display: block; */
         /* margin-left: auto;
         margin-right: auto; */
         /* width: 50%; */
-        width: 250px;
+        /* width: 50%; */
+
+        display: block;
+        margin-top: 130px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .header-text{
         /* text-align: center; */
