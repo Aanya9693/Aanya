@@ -1,4 +1,4 @@
-# 🚀 Showcasing My Best Work - A Portfolio Website 💻
+# 🚀 Showcasing My Portfolio Website 💻
 
 🔥 This portfolio website is a showcase of my skills and abilities, built with HTML, CSS, and JavaScript. 💻
 
