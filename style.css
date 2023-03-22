@@ -489,15 +489,6 @@ nav ul i .fa-solid{
         /* background-position: center; */
     } 
     .pic{
-        /* text-align: center; */
-        /* margin: 25% 10%; */
-        /* margin: 25% 20%; */
-
-        /* display: block; */
-        /* margin-left: auto;
-        margin-right: auto; */
-        /* width: 50%; */
-        /* width: 50%; */
 
         display: block;
         margin-top: 130px; 
@@ -592,7 +583,6 @@ h4{
     padding-bottom: 40px;
 }
 .section{
-    margin: 0px 150px;
     margin-bottom: 100px;
 }
 
@@ -602,13 +592,8 @@ h4{
     margin-bottom: 2rem;
 }
 
-ul{
-    
-}
-
 p{
     color: #666;
-    
 }
   
   .project-card-container {
@@ -618,11 +603,13 @@ p{
   }
   
   .project-card {
-    width: 40%;
+    width: 100%;
     margin-bottom: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
+    background-color: #fff;
+    color: #333;
   }
   
   .project-card-header {
@@ -683,3 +670,9 @@ p{
   .fas{
     color: #9615DB;
   }
+  @media only screen and (min-width: 868px) {
+    .project-card {
+      width: 45%;
+    }
+  }
+  
