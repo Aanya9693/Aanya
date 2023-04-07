@@ -36,11 +36,7 @@ body{
     color: #d2d2d2;
     font-size: 17px;
 }
-/* h6{
-    text-align: left;
-    width: 50%;
-    
-} */
+
 
 .container{
     padding: 10px 5%;
@@ -131,7 +127,7 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 45%;
 }
 .about-col-1 img{
     width: 80%;
@@ -139,7 +135,7 @@ nav ul li a:hover::after{
     margin: 80px 0;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 50%;
 
 }
 .sub-title{
@@ -284,7 +280,7 @@ h2{
 }
 @keyframes css-fill{
     100%{
-        width: 75%;
+        width: 85%;
     }
 }
 #js-bar{
@@ -300,7 +296,7 @@ h2{
 }
 @keyframes jQuery-fill{
     100%{
-        width: 68%;
+        width: 78%;
     }
 } 
 
@@ -467,7 +463,6 @@ form .btn2{
 }
 
 /* ------------------------css for small screen--------------------------*/
-
 
 nav .fa-solid{
     color: #fff;
